@@ -2,6 +2,7 @@
 Timetable Bot which pings you on Discord.com
 **(Originally Designed for private use)**
 
+http://timetable.itcarlow.ie/
 ## Steps: 
 1. Open the sln file.
 1. Build the solution (To make the ``\bin\Debug\netcoreapp3.1``) using Visual Studio
