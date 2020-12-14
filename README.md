@@ -21,8 +21,8 @@ Timetable Bot which pings you on Discord.com
   "token": "12344457754",
   "prefix": "?",
   "website": "http://timetable.itcarlow.ie/reporting/textspreadsheet;student+set;id;KCCGDB%5F1A%20CW208%0D%0A?t=student+set+textspreadsheet&days=1-5&weeks=&periods=5-40&template=student+set+textspreadsheet",
-  "serverId": 653424352254,
-  "channelId": 32151235564325
+  "serverId": 302094807046684672,
+  "channelId": 302235979199283201
 }
 ```
 #### Date: 26/10/2020 (Made within 1 week with no previous knowledge of C#)
