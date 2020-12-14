@@ -1,4 +1,4 @@
-# Carlow-IT-Timetable-Bot
+# IT-Carlow-Timetable-Bot
 Timetable Bot which pings you on Discord.com
 **(Originally Designed for private use)**
 
