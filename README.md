@@ -1,6 +1,6 @@
 # Carlow-IT-Timetable-Bot
 Timetable Bot which pings you on Discord.com
-**(Originally Designed for personal use)**
+**(Originally Designed for private use)**
 
 ## Steps: 
 1. Open \bin\Debug\netcoreapp3.1
