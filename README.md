@@ -13,7 +13,7 @@ http://timetable.itcarlow.ie/
 {
   "token": "Discord Bot Token",
   "prefix": "?",
-  "website": "List Page of timetable website",
+  "website": "List Format of your timetable",
   "serverId": Discord Server ID,
   "channelId": Discord Server Channel ID
 }
@@ -30,4 +30,13 @@ http://timetable.itcarlow.ie/
 ```
 7. Create a shortcut to the exe file in the ``\bin\Debug\netcoreapp3.1``
 1. Put the shortcut in your desktop (For easy access)
+
+### Steps to getting List Format of your timetable:
+
+1. Go to http://timetable.itcarlow.ie/studentset.htm
+1. Set your Department.
+1. Select your Student Group
+1. Change Timetable Layout to **List Format**
+1. Copy the link from the Address bar
+
 #### Date: 26/10/2020 (Made within 1 week with no previous knowledge of C#)
