@@ -3,9 +3,11 @@ Timetable Bot which pings you on Discord.com
 **(Originally Designed for private use)**
 
 ## Steps: 
-1. Open \bin\Debug\netcoreapp3.1
+1. Open the sln file.
+1. Build the solution (To make the ``\bin\Debug\netcoreapp3.1``) using Visual Studio
+1. Open ``\bin\Debug\netcoreapp3.1`` using File Explorer.
 1. Add a file called "config.json"
-1. Type the following into the file:
+1. Type the following into the file using notepad++:
 ```
 {
   "token": "Discord Bot Token",
@@ -15,7 +17,7 @@ Timetable Bot which pings you on Discord.com
   "channelId": Discord Server Channel ID
 }
 ```
-4. Edit the token, website, serverId, and channelId variables. eg: 
+6. Edit the token, website, serverId, and channelId variables. eg: 
 ```
 {
   "token": "12344457754",
@@ -25,4 +27,6 @@ Timetable Bot which pings you on Discord.com
   "channelId": 302235979199283201
 }
 ```
+7. Create a shortcut to the exe file in the ``\bin\Debug\netcoreapp3.1``
+1. Put the shortcut in your desktop (For easy access)
 #### Date: 26/10/2020 (Made within 1 week with no previous knowledge of C#)
