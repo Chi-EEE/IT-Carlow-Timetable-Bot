@@ -1,5 +1,6 @@
 # Carlow-IT-Timetable-Bot
 Timetable Bot which pings you on Discord.com
+**(Originally Designed for personal use)**
 
 ## Steps: 
 1. Open \bin\Debug\netcoreapp3.1
@@ -24,5 +25,4 @@ Timetable Bot which pings you on Discord.com
   "channelId": 32151235564325
 }
 ```
-
-#### Date: 26/10/2020
+#### Date: 26/10/2020 (Made within 1 week with no previous knowledge of C#)
