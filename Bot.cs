@@ -97,11 +97,12 @@ namespace DiscordBot
                 new string[6],
                 new string[6],
                 new string[6],
+                new string[6],
                 };
 
 
                     short indexActivity = 0;
-                    foreach (HtmlNode activityNode in htmlDoc.DocumentNode.SelectNodes("//body/table/tr/td[1]")) //Goes through subject name html
+                    foreach (HtmlNode activityNode in htmlDoc.DocumentNode.SelectNodes("//body/table[2]/tbody/td[1]")) //Goes through subject name html
                     {
                         string subjectName = (activityNode.InnerHtml);
                         if (!subjectName.Contains("table")) //filters out the useless information
@@ -138,7 +139,7 @@ namespace DiscordBot
                                .StoreDurably()
                                .Build();
                     await scheduler.AddJob(job, false);
-                    for (short s = 0; s < clockDays[dayNumberOfWeek].Length ; s++)
+                    for (short s = 0; s < clockDays[dayNumberOfWeek].Length; s++)
                     {
                         short clockTime = clockDays[dayNumberOfWeek][s];
                         string activity = activityDays[dayNumberOfWeek][s];
@@ -148,7 +149,7 @@ namespace DiscordBot
 
                             ITrigger trigger = (ITrigger)TriggerBuilder.Create()
                                 .WithIdentity((activity + s), "Subject")
-                                .StartAt(new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day).Add(new TimeSpan((clockTime - 1),45,0)))
+                                .StartAt(new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day).Add(new TimeSpan((clockTime - 1), 45, 0)))
                                 .ForJob(job)
                                 .Build();
                             trigger.JobDataMap["data"] = new string[] { clockTime.ToString(), activity };
@@ -161,15 +162,15 @@ namespace DiscordBot
                     Console.WriteLine("This Program only works on weekdays.");
                 }
             }
-            
-    await Task.Delay(-1);
-    }
+
+            await Task.Delay(-1);
+        }
         private Task OnClientReady(object sender, ReadyEventArgs e)
         {
             Console.WriteLine("Bot Ready");
             return Task.CompletedTask;
         }
-        
+
     }
     public class HelloJob : IJob
     {
