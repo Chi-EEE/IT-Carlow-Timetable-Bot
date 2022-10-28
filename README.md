@@ -1,4 +1,7 @@
 # IT-Carlow-Timetable-Bot
+
+❗ New Version of the Bot: https://github.com/Chi-EEE/IT-Carlow-Timetable-Parser ❗
+---
 Timetable Bot which pings you on Discord.com
 **(Originally Designed for private use)**
 
